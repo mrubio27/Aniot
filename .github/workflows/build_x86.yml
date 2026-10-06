@@ -25,7 +25,7 @@ jobs:
       run: |
         mkdir build_example_x86
         cd build_example_x86
-        cmake ../Aniot/src_example_x86/
+        cmake ../src_examples_x86/ 
 
     - name: Build Project
       # Compila el proyecto usando el sistema de compilación generado por CMake
